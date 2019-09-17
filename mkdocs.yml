@@ -1,0 +1,14 @@
+site_name: Customer churn reference implementation solution
+repo_url: https://github.com/ibm-cloud-architecture/refarch-ai-data-customer-churn.git
+nav:
+  - Introduction: index.md
+  - Labs: lab/readme.md
+theme: 
+  name: material
+extra_css: ["extra.css"]
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
