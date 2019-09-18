@@ -6,9 +6,9 @@
 * [2. Dataset and Initial Setups for IBM Cloud Pak for Data](./1. Getting Started/2. Initial Setups for IBM Cloud Pak for Data.md)
 * [3. Initial Setups for IBM Cloud Public](./1. Getting Started/3. Initial Setups for IBM Cloud Public.md)
 
-Churn Model Development
+## Step 2: Data Ingestion, Organization and Governance for Customer Churn
 
-[Read detail here](./Step-1-Churn-Model-Development/readme.md)
+* [1. IBM Cloud Pak for Data](./2. Data Ingestion, Organization and Governance for Customer Churn/1. IBM Cloud Pak for Data.md)
 
 
 ## Step 2: Weekly Churn Scoring 
