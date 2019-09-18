@@ -10,6 +10,6 @@ Step 2: Data Ingestion, Organization and Governance for Customer Churn
     [1. Data Discovery](./Data Ingestion, Organization and Governance for Customer Churn/Data Discovery.md)
     [2. Data Governance - Creating Business Glossary, Policies and Rules](./Data Ingestion, Organization and Governance for Customer Churn/Data Governance - Creating Business Glossary, Policies and Rules.md)
     [3. Data Ingestion from Flat Files to a Project](./Data Ingestion, Organization and Governance for Customer Churn/Data Ingestion from Flat Files to a Project.md)
-    [4. Data Ingestion from Flat Files to a Project](./Data Ingestion, Organization and Governance for Customer Churn/Data Organization using PySpark in Notebook.md.md)
+    [4. Data Ingestion from Flat Files to a Project](./Data Ingestion, Organization and Governance for Customer Churn/Data Organization using PySpark in Notebook.md)
 
 Step 2: Weekly Churn Scoring
