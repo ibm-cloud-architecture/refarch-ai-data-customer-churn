@@ -3,7 +3,7 @@
 Step 1: Getting Started
 
     [1. Dataset and sample code](./Getting Started/Datasets and Sample Code.md)
-    [2. Dataset and Initial Setups for IBM Cloud Pak for Data](./Getting Started/Initial Setups for IBM Cloud Pak for Data.md)
+    [2. Dataset and Initial Setups for IBM Cloud Pak for Data](./Getting Started/Initial Setups.md)
 
 Step 2: Data Ingestion, Organization and Governance for Customer Churn
 
