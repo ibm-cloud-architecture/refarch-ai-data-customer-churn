@@ -31,21 +31,21 @@
       
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
-      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <link rel="shortcut icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.0.1">
     
     
       
-        <title>Labs - Customer churn reference implementation solution</title>
+        <title>Initial Setup for Cloud Pak for Data - Customer churn reference implementation solution</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/application.982221ab.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/application.982221ab.css">
       
       
     
     
-      <script src="../../assets/javascripts/modernizr.1f0bcf2b.js"></script>
+      <script src="../../../assets/javascripts/modernizr.1f0bcf2b.js"></script>
     
     
       
@@ -54,10 +54,10 @@
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
     
-    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    <link rel="stylesheet" href="../../../assets/fonts/material-icons.css">
     
     
-      <link rel="stylesheet" href="../../extra.css">
+      <link rel="stylesheet" href="../../../extra.css">
     
     
       
@@ -96,7 +96,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#labs" tabindex="1" class="md-skip">
+      <a href="#initial-setup-for-cloud-pak-for-data" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -105,9 +105,9 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="../.." title="Customer churn reference implementation solution" class="md-header-nav__button md-logo">
+        <a href="../../.." title="Customer churn reference implementation solution" class="md-header-nav__button md-logo">
           
-            <img src="../../images/cloud.png" width="24" height="24">
+            <img src="../../../images/cloud.png" width="24" height="24">
           
         </a>
       </div>
@@ -121,7 +121,7 @@
               Customer churn reference implementation solution
             </span>
             <span class="md-header-nav__topic">
-              Labs
+              Initial Setup for Cloud Pak for Data
             </span>
           
         </div>
@@ -195,9 +195,9 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <a href="../.." title="Customer churn reference implementation solution" class="md-nav__button md-logo">
+    <a href="../../.." title="Customer churn reference implementation solution" class="md-nav__button md-logo">
       
-        <img src="../../images/cloud.png" width="48" height="48">
+        <img src="../../../images/cloud.png" width="48" height="48">
       
     </a>
     Customer churn reference implementation solution
@@ -231,7 +231,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../.." title="Introduction" class="md-nav__link">
+    <a href="../../.." title="Introduction" class="md-nav__link">
       Introduction
     </a>
   </li>
@@ -243,7 +243,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../businessproblem/" title="Business problem" class="md-nav__link">
+    <a href="../../../businessproblem/" title="Business problem" class="md-nav__link">
       Business problem
     </a>
   </li>
@@ -253,56 +253,11 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Labs
-      </label>
-    
-    <a href="./" title="Labs" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../../readme/" title="Labs" class="md-nav__link">
       Labs
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#step-1-getting-started" title="Step 1: Getting Started" class="md-nav__link">
-    Step 1: Getting Started
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#step-2-weekly-churn-scoring" title="Step 2: Weekly Churn Scoring" class="md-nav__link">
-    Step 2: Weekly Churn Scoring
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
     
@@ -323,29 +278,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#step-1-getting-started" title="Step 1: Getting Started" class="md-nav__link">
-    Step 1: Getting Started
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#step-2-weekly-churn-scoring" title="Step 2: Weekly Churn Scoring" class="md-nav__link">
-    Step 2: Weekly Churn Scoring
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -356,20 +288,40 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/ibm-cloud-architecture/refarch-ai-data-customer-churn.git/edit/master/docs/lab/readme.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/ibm-cloud-architecture/refarch-ai-data-customer-churn.git/edit/master/docs/lab/1. Getting Started/2. Initial Setups for IBM Cloud Pak for Data.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="labs">Labs</h1>
-<h2 id="step-1-getting-started">Step 1: Getting Started</h2>
-<ul>
-<li><a href="../1. Getting Started/1. Datasets and Sample Code/">1. Dataset and sample code</a></li>
-<li><a href="../1. Getting Started/2. Initial Setups for IBM Cloud Pak for Data/">2. Dataset and Initial Setups for IBM Cloud Pak for Data</a></li>
-<li><a href="../1. Getting Started/3. Initial Setups for IBM Cloud Public/">3. Initial Setups for IBM Cloud Public</a></li>
-</ul>
-<p>Churn Model Development</p>
-<p><a href="./Step-1-Churn-Model-Development/readme.md">Read detail here</a></p>
-<h2 id="step-2-weekly-churn-scoring">Step 2: Weekly Churn Scoring</h2>
-<p><a href="./Step-2-Weekly-Churn-Scoring-using-the-Deployed-Model/readme.md">Read detail here</a></p>
+                <h1 id="initial-setup-for-cloud-pak-for-data">Initial Setup for Cloud Pak for Data</h1>
+<p>Cloud Pak for Data should be either installed for developing this use case or you have to install the same using the instructions available <here>.</p>
+<p>Once Cloud Pak for Data is installed, various users need to be created. These users should have been already created with necessary access rights.</p>
+<p>You should have following information available with you for developing this use case -</p>
+<p>a. Cloud Pak for Data - URL
+b. Watson Open Scale add on for Cloud Oak for Data - URL
+c. JDBC URL, Login id and Password for DB2 Wearhouse internal to Cloud Oak for Data
+d. Credential of a User Profile (user id/password) that has access right of Administrator, Data Engineer, Business Analyst, Data Scientist, Data Steward and App Developer</p>
+<p>Use the above information to login to Cloud Oak for Data UI and Watson Open Scale UI to ensure that you can get started.</p>
+<p>On successful login you will see a welcome page as below</p>
+<p><img alt="" src="../images/cp4dwelcome.png" /></p>
+<p>Next, you should create a Global Connection for DB2 Wearhouse internal to Cloud Oak for Data using following steps -</p>
+<p>Click on Connections in the left Navigation menu.
+<cp4dLeftNav.png></p>
+<p>Connections allow you to create data connections and browse the data connections that you can use to add data to the enterprise governance catalog, analyze data, virtualize data, and more. </p>
+<p>Click ‘Add Connection’. The ‘Add Connection’ will open a screen as below.</p>
+<p><cp4dAddConnection.png></p>
+<p>Provide all the details. Then you can test the connection using “Test Connection” button at the right bottom of the screen. If the “Test Connection” step is successful ‘Save’ the same. </p>
+<p>One can also upload custom driver if the data source is not available in the drop-down list of out-of-the box sources.</p>
+<p>Next, create a Project to get started. </p>
+<p>A project is a collection of assets that you use to achieve a particular data analysis goal. Your project assets can include:
+•   Notebooks
+•   RStudio files
+•   Models
+•   Data assets (local files, data sources, and remote data sets)
+•   Scripts</p>
+<p>Login with your UserId. Go to Projects from the left Navigation Menu. Then click on Add Project. This would show you the Create Project screen below.</p>
+<p><cp4dAddProject.png></p>
+<p>If you have not downloaded already, please download the Sample Project file from the Cloud Oak for Data folder under Sample Projects in the root of this repository. After download rename downloaded file to TelcoChurnPrj<your UserId>.zip. To import project select ‘From file’. drag and drop or browse for the Zip file you downloaded earlier (TelcoChurnPrj<Your UserID>.zip).</p>
+<p>Click ‘Create’, then the project is created. It will take you to the “Assets” page of this project. </p>
+<p>Alternatively, you can also create a blank project by using the first left tab and providing the same name as above. Later on you need to add datasets and Notebooks to this project.</p>
                 
                   
                 
@@ -386,27 +338,6 @@
       
         
 <footer class="md-footer">
-  
-    <div class="md-footer-nav">
-      <nav class="md-footer-nav__inner md-grid">
-        
-          <a href="../../businessproblem/" title="Business problem" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
-            </div>
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Previous
-                </span>
-                Business problem
-              </span>
-            </div>
-          </a>
-        
-        
-      </nav>
-    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -425,9 +356,9 @@
       
     </div>
     
-      <script src="../../assets/javascripts/application.b806dc00.js"></script>
+      <script src="../../../assets/javascripts/application.b806dc00.js"></script>
       
-      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      <script>app.initialize({version:"1.0.4",url:{base:"../../.."}})</script>
       
     
   </body>
