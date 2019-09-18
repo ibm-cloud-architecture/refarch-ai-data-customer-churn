@@ -1,0 +1,8 @@
+# Initial Configuration of Watson Open Scale
+
+If you are using IBM Cloud Pak for Data then this may be already configured for you. Otherwise, you would be automatically taken to the configuration screen where you need to configure as below. 
+Please note that for IBM Cloud Pak for Data currently only DB2 supported as Datamart.
+
+1. Datamart - Here you need to provide Datamart's credential. Datamart can be either DB2Warehouse.
+
+2. Model Deployment environment - You need to select WML or any other deployment environment as used by you.
