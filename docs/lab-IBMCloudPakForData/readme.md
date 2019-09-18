@@ -12,4 +12,7 @@ Step 2: Data Ingestion, Organization and Governance for Customer Churn
     [3. Data Ingestion from Flat Files to a Project](./Data Ingestion, Organization and Governance for Customer Churn/Data Ingestion from Flat Files to a Project.md)
     [4. Data Ingestion from Flat Files to a Project](./Data Ingestion, Organization and Governance for Customer Churn/Data Organization using PySpark in Notebook.md)
 
-Step 2: Weekly Churn Scoring
+Step 3: Customer Churn Model Development and Deployment
+    [1. Model Development using PySpark in Jupyter Notebook](./Customer Churn Model Development and Deployment/Model Development using PySpark in Jupyter Notebook.md)
+    [2. Model Development using Auto AI](./Customer Churn Model Development and Deployment/Model Development using Auto AI.md)
+    [3. Model Development using SPSS](./Customer Churn Model Development and Deployment/Model Development using SPSS.md)
