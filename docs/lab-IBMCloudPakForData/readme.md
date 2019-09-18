@@ -27,3 +27,5 @@ Step 5: Monitoring Churn Model using Open Scale
 
     [1. Configuring Datamart and Deployment Infrastructure](./Monitoring Churn Model using Open Scale/Configuring Datamart and Deployment Infrastructure.md)
     [2. Adding Deployment and Configuring Model](./Monitoring Churn Model using Open Scale/Adding Deployment and Configuring Model.md)
+    [3. View Monitoring Results in Dashboard](./Monitoring Churn Model using Open Scale/View Monitoring Results in Dashboard.md)
+    [4. Access Monitoring Results using API](./Monitoring Churn Model using Open Scale/Access Monitoring Results using API.md)
