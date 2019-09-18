@@ -22,4 +22,8 @@ Step 4: Weekly Churn Scoring using the deployed Model
 
     [1. Churn Scoring using Model Deployed in WML](./Weekly Churn Scoring using the deployed Model/Churn Scoring using Model Deployed in WML.md)
     [2. Churn Scoring using MMD Model function Deployed in WML](./Weekly Churn Scoring using the deployed Model/Churn Scoring using MMD Model function Deployed in WML.md)
-    
+
+Step 5: Monitoring Churn Model using Open Scale
+
+    [1. Configuring Datamart and Deployment Infrastructure](./Monitoring Churn Model using Open Scale/Configuring Datamart and Deployment Infrastructure.md)
+    [2. Adding Deployment and Configuring Model](./Monitoring Churn Model using Open Scale/Adding Deployment and Configuring Model.md)
