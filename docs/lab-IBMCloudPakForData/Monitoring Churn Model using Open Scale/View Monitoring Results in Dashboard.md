@@ -14,8 +14,35 @@ Please note following -
 
 Run the above Notebook to send enough scoring requests to WML.
 
-Now go to the Dashboard and select the tile of the Model you have already configured. Click the same and it will take you to the detailed view of the monitored result.
+Now go to the Dashboard and select the tile of the Model you have already configured. 
 
-Click on, one of the Attribute you are monitoring for Fairness. It will take you to the Fairness Screen. There you can click on a particul;ar point on the line. That will take you to the deatils of the Fairness.
+![](images/cp4dWoSViewTile.png)
 
-From this screen you can select Transactions button. That will take you to teh Transaction screen. There you can clieck on Explain link for any transaction. That would generate Explaination for that transaction.
+Click the same and it will take you to the detailed view of the monitored result.
+
+![](images/cp4dWoSMonitoringDetails.png)
+
+Click on, one of the Attribute you are monitoring for Fairness. It will take you to the Fairness Screen. There you can click on a particul;ar point on the line. 
+
+![](images/cp4dWoSFairnessSummary.png)
+
+That will take you to the deatils of the Fairness.
+
+![](images/cp4dWoSFairnessDetails.png)
+
+From this screen you can select View Transactions button. That will take you to the Transaction Details screen. 
+
+![](images/cp4dWoSTranDetails.png)
+
+There you can click on Explain link for any transaction. That would generate Explaination for that transaction. It may take few minutes for WoS to generate the Explanation
+
+![](images/cp4dWoSExplain.png)
+
+Now go back to the Dashboard and clickn on Tile of your deployment again. Click on Quality/Area Uner RoC. It will show you the Quality with respect to Threshold you have set in configuration step before.
+
+![](images/cp4dWoSQualitySummary.png)
+
+If you click on the line of Quality (green line) you can see the details of the Quality.
+
+![](images/cp4dWoSQualityDetails.png)
+
