@@ -1,4 +1,4 @@
-![](images/CustomerChurnSolution3.png)
+![](images/CustomerChurnSolution4.png)
 
 * Step 0 - Enterprise Applications persist data in Data Stores. They all pushes data to Event Stores for real time processing.
 * Step 1 - Modele Builder build a Customer Churn Model based on Monthly/Haif Yearly data across all Customers. Also deploys the same in a Deployment Infrastructure
