@@ -17,6 +17,9 @@
 * [1. Model Development using PySpark in Jupyter Notebook](./Customer Churn Model Development and Deployment/Model Development using PySpark in Jupyter Notebook.md)
 * [2. Model Development using Auto AI](./Customer Churn Model Development and Deployment/Model Development using Auto AI.md)
 * [3. Model Development using SPSS](./Customer Churn Model Development and Deployment/Model Development using SPSS.md)
+* [4. Model Deployment in MMD](./Customer Churn Model Development and Deployment/Model Development in MMD.md)
+* [5. Model Deployment in WML using API](./Customer Churn Model Development and Deployment/Model Deployment in WML using API.md)
+* [6. Python Function accessing Model in MMD Deployed in WML using API](./Customer Churn Model Development and Deployment/Python Function accessing Model in MMD Deployed in WML using API.md)
     
 ## Step 4: Weekly Churn Scoring using the deployed Model
 
