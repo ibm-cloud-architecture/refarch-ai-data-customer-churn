@@ -8,7 +8,7 @@ a) first ensure that you have downloaded all Notebook files available in Noteboo
 
 b) Next, click Notebooks under Assets. In the resulting page click Add Notebook. 
 
-<cp4dAddDNotebook.png>
+![](images/cp4daddNotebook.png)
 
 c) Go to From File tab. Upload the notebook 'Prepare and Save Data For Building a ML Model'.
 
