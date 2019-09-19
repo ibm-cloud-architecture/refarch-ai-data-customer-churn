@@ -45,7 +45,8 @@ A project is a collection of assets that you use to achieve a particular data an
 
 Login with your UserId. Go to Projects from the left Navigation Menu. Then click on Add Project. This would show you the Create Project screen below.
 
-<cp4dAddProject.png>
+
+![](images/cp4dAddProject.png)
 
 If you have not downloaded already, please download the Sample Project file from the Cloud Oak for Data folder under Sample Projects in the root of this repository. After download rename downloaded file to TelcoChurnPrj<your UserId>.zip. To import project select ‘From file’. drag and drop or browse for the Zip file you downloaded earlier (TelcoChurnPrj<Your UserID>.zip).
 
