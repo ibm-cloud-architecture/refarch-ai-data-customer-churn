@@ -50,6 +50,8 @@ Login with your UserId. Go to Projects from the left Navigation Menu. Then click
 ![](images/cp4dAddProject.png)
 
 If you have not downloaded already, please download the Sample Project file from the Cloud Oak for Data folder under Sample Projects in the root of this repository. After download rename downloaded file to TelcoChurnPrj<your UserId>.zip. To import project select ‘From file’. drag and drop or browse for the Zip file you downloaded earlier (TelcoChurnPrj<Your UserID>.zip).
+ 
+ ![](images/cp4dProjectFromFile.png)
 
 Click ‘Create’, then the project is created. It will take you to the “Assets” page of this project. 
 
