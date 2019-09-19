@@ -32,7 +32,7 @@ Navigate to the home menu and select ‘Model Deployments’ under ‘Administer
 
 Add in the details of your Project Release under the ‘From Watson Studio’ tab.
 
-![](images/cp4dAddProjectReleaseDetails.png)
+![](images/cp4dProjectReleaseDetails.png)
 
 These details should be unique. For e.g.
 Name : user7telcochurnprjrel
@@ -57,7 +57,7 @@ Next we will create a “Realtime online deployment” of the model. The Cloud P
 In the Assets tab, you can see all of the analytics assets. There are notebooks, models, and scripts that we created previously. 
 Selct the model with the name that you created in model creation step, (say something like ‘Telco Churn Model<your user id>’)  on the left and Click “web service”. This will bring up “Deploy” window expecting input as shown below.
 
-![](images/cp4dModelDeployWindow.png)
+![](images/cp4dProjectDeployWindow.png)
 
 Fill in the deployment details. For example :
 Name : user7telcochurndepv1 (it should contain only lower case letter and number)
@@ -68,7 +68,7 @@ Please note that programing language and its version of the environment you sele
 
 Click “Create”. This will bring deployment Overview screen with API tab as shown below.
 
-![](images/cp4dDeploymentOverview.png)
+![](images/cp4dProjectDeploymentOverview.png)
 
 Note your Web service ENDPOINT URL and access token. At this time, the online deployment is created. You could also find the REST API and deployment token under ‘API’ tab. Simply click, the token is copied to your clipboard. 
 
@@ -76,13 +76,13 @@ However, note that the deployment is not active as yet. We will need to “Launc
 
 Click on Project releases tab from top left side tab. Click on 3 dots right of project release name. You will see screen options as similar to below.
 
-![](images/cp4dDeploymentLaunch.png)
+![](images/cp4dProjectDeploymentLaunch.png)
 
 Click “Launch” . This will prompt showing all deployments will be taken online for end user access. Click “Launch” again in the current screen. This will show confirmation message that deployment is successfully brought online. Actual instantiantion of environments and setup could take 1-2 minutes before APIs can be accessible. Under project releases , “Deployments” will show count as 1.
 
 Click on Project release name. This will bring back Dashboard. Click on Deploments tab, now this will show 1 model with “Avaliablity” as “Enabled” . (The enabled status may not change for 1-2 minutes after “Launch” step. Allow some time, it it is still in “disable” state. May need to click to different tab to update status.).
 
-![](images/cp4dDeploymentEnable.png)
+![](images/cp4dProjectDeploymentEnable.png)
 
 Click on deployment name ( for e.g. user7depv1 ). This will bring up “Overview” and API tab for this deployment. To test the endpoint is functioning, we can run a sample record to score. Click on API tab and Click “Submit” under “Body” window. 
 
