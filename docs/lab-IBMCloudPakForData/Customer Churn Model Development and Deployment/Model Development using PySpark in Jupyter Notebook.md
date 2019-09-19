@@ -1,6 +1,6 @@
 # Model Development using PySpark in Jupyter Notebook
 
-Navigate to the ‘Notebooks’ tab of your project and open ‘Create and Save Model Using pyspark’ notebook using Jupyter with latest/highest version of Spark environment. You can select the environment by clicking the 3 vertical dots at the right of the name of the Notebook. 
+Navigate to the ‘Notebooks’ tab of your project and open ‘Create and Save Model’ notebook using Jupyter with latest/highest version of Spark environment. You can select the environment by clicking the 3 vertical dots at the right of the name of the Notebook. 
 
 Follow the notebook instructions and execute all cells as directed.
 
