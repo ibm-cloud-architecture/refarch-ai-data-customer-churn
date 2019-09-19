@@ -26,7 +26,8 @@ Connections allow you to create data connections and browse the data connections
  
 Click ‘Add Connection’. The ‘Add Connection’ will open a screen as below.
 
-<cp4dAddConnection.png>
+
+![](images/cp4dAddConnection.png)
 
 Provide all the details. Then you can test the connection using “Test Connection” button at the right bottom of the screen. If the “Test Connection” step is successful ‘Save’ the same. 
 
