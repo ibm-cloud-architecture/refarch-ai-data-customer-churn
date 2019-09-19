@@ -24,7 +24,7 @@ Click the same and it will take you to the detailed view of the monitored result
 
 Click on, one of the Attribute you are monitoring for Fairness. It will take you to the Fairness Screen. There you can click on a particul;ar point on the line. 
 
-![](images/cp4dWoSFairnessSummary.png)
+![](images/cp4dWoSFairnessSummarypng.png)
 
 That will take you to the deatils of the Fairness.
 
