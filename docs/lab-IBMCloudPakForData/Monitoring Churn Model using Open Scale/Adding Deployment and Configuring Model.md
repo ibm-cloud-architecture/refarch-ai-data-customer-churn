@@ -54,10 +54,10 @@ c) For monitoring Gender, use 'F' (as Female) as Reference group and 'M' (as Mal
 
 d) For monitoring Age, use 40 to 60 as Reference group and 22 to 35 (as Male) as Monitored group. Use 97% as threshold for Bias. And use 40 as the sample of records to be used.
 
-2. Configuring Monitor for Accuracy -
+2. Configuring Monitor for Quality -
 
 a) Use 95% as accuracy Threshold
 
 b) Use 50 as minimum sample and 200 as maximum sample
 
-c) Upload the 'customer_churn_wos_quality_feedback.csv' provided as feedback file.
+c) Upload the 'customer_churn_quality_feedback.csv' provided as feedback file.
