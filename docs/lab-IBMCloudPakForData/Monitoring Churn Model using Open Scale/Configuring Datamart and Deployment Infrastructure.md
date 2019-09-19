@@ -3,7 +3,7 @@
 If you are using IBM Cloud Pak for Data then this may be already configured for you. Otherwise, you would be automatically taken to the configuration screen where you need to configure as below. 
 Please note that for IBM Cloud Pak for Data currently only DB2 supported as Datamart.
 
-![](images/cp4dWoSConfig.png)
+![](images/cp4dWodConfig.png)
 
 1. Datamart - Here you need to provide Datamart's credential. Datamart can be either DB2Warehouse.
 
