@@ -1,7 +1,6 @@
 site_name: Customer churn reference implementation solution
 repo_url: https://github.com/ibm-cloud-architecture/refarch-ai-data-customer-churn.git
 nav:
-  - Introduction: index.md
   - Business problem: businessproblem.md
   - Solution: solution.md
   - Labs: 
