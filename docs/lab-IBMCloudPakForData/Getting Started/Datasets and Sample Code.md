@@ -1,6 +1,6 @@
 # Datasets and Sample Code to be used to develop this Use case
 
-All necessary datasets to develop this Use case are available in the Datasets folder at the root of this repository. You have to download them before hand for development of this Use case.
+All necessary datasets to develop this Use case are available in the Datasets folder at the root of this repository - https://github.com/ibm-cloud-architecture/refarch-ai-data-customer-churn. You have to download them before hand for development of this Use case.
 
 Sample Codes are available in Notebooks in the Notebook folder at the root of this repository. You have to download them before hand for development of this Use case. There are 2 subfolders under Notebook folder. One has Notebooks for IBM Cloud Pak for Data, the other has same for Watson Studio in IBM Cloud Public. You have to download from the folder for IBM Cloud Pak for Data for this lab.
 
