@@ -1,1 +1,1 @@
-![](images/CustomerChurnSolution.png)
+![](images/CustomerChurnSolution2.png)
