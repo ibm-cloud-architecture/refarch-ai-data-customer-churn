@@ -4,8 +4,11 @@ This project is part of the [IBM Data and AI reference architecture](https://ibm
 
 The goals of this implementation is to illustrate how to build an intelligent application using:
 
-* Data ingestion
-* Cognitive service like Ton Analyzer and Chatbot
+* Data Ingestion and Organization
+* Model Development and Deployment
+* Batch Scoring
+* Model MOnitoring
+* Cognitive service like Tone Analyzer and Chatbot
 * Integrate with Customer Data base and unstructured data to build a customer churn predictive scoring model
 * Deploy and monitor the model
 
