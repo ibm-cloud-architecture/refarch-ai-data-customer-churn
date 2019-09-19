@@ -3,6 +3,7 @@ repo_url: https://github.com/ibm-cloud-architecture/refarch-ai-data-customer-chu
 nav:
   - Introduction: index.md
   - Business problem: businessproblem.md
+  - Solution: solution.md
   - Labs: 
     - IBM Cloud: lab/readme.md
     - IBM Cloud Pak for Data: lab-IBMCloudPakForData/readme.md
