@@ -20,8 +20,6 @@ Now go to the Dashboard and select the tile of the Model you have already config
 
 Click the same and it will take you to the detailed view of the monitored result.
 
-![](images/cp4dWoSMonitoringDetails.png)
-
 Click on, one of the Attribute you are monitoring for Fairness. It will take you to the Fairness Screen. There you can click on a particul;ar point on the line. 
 
 ![](images/cp4dWoSFairnessSummarypng.png)
