@@ -37,11 +37,12 @@ One can also upload custom driver if the data source is not available in the dro
 Next, create a Project to get started. 
 
 A project is a collection of assets that you use to achieve a particular data analysis goal. Your project assets can include:
-•	Notebooks
-•	RStudio files
-•	Models
-•	Data assets (local files, data sources, and remote data sets)
-•	Scripts
+
+* Notebooks
+* RStudio files
+* Models
+* Data assets (local files, data sources, and remote data sets)
+* Scripts
 
 Login with your UserId. Go to Projects from the left Navigation Menu. Then click on Add Project. This would show you the Create Project screen below.
 
