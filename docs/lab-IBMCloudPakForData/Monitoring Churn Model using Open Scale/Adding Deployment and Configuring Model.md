@@ -4,6 +4,8 @@ If the initial configuration of Watson Open Scale is done, there would be Add De
 
 This will bring up a screen showing list of available Deployments. This list must show the 2 Deployments you have created in previous steps.
 
+![](images/cp4dWoSDeploymentList.png)
+
 For Customer Churn use case add the Python Function Deployment (which internally access model deployed in MMD) by selecting the corresponding Deployment name shown in the available Deployment list.
 
 Next, for that Deployment you need to send few scoring requests. 
@@ -20,15 +22,17 @@ Please note following -
 
 4. Wherever, urls are needed use the Cloud Pak for Data URL (ip/host name and port) provided to you.
 
-After this step Watson Open Scale would allow you to configure the Model.
+After this step Watson Open Scale would allow you to configure the Model with the message that Logging Activated Successfully.
 
-For Configuring Model you need to - 
+![](images/cp4dWoSLoggingActivated.png)
+
+For Configuring Model you need to first click on Model Deatils and select Manually Configure Monitors.
+
+![](images/cp4dWoSModelConfigure.png)
 
 1. Provide Location of Training Data - 
 
 In case of Cloud Pak For Data you have to specify any DB2 database for the same. For this lab specify the credential of internal DB2Wh of the Cloud Pak For Data (you should have it already as discussed in Getting Started step for IBM Cloud Pak for Data). 
-
-In case of IBM Cloud Public you can use either DB2 database or Cloud Object Store. For this lab use DB2Wh in Cloud. (The credentials for the same are already discussed in Getting Started step for IBM Cloud Public).
 
 After you provide the location of Training Data, you need to select the schema and Table where the Training Data is stored. It should be same as the one you used in Model Development step.
 
@@ -46,7 +50,7 @@ a) Identify Age and Gender are the attributes those you want to Monitor for Fair
 
 b) Use, 'F' (as False) as favorable outcome and 'T' (as True) as unfavorable outcome.
 
-c) For monitoring Gender, use 'F' (as Female) as Reference group and 'M' (as Male) as Monitored group. Use 97% as threshold for Bias. And use 40 as the sample of records to be used.
+c) For monitoring Gender, use 'F' (as Female) as Reference group and 'M' (as Male) as Monitored group. Use 97% as threshold for Bias. And use 50 as the minimum sample of records to be used.
 
 d) For monitoring Age, use 40 to 60 as Reference group and 22 to 35 (as Male) as Monitored group. Use 97% as threshold for Bias. And use 40 as the sample of records to be used.
 
