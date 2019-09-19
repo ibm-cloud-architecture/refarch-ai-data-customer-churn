@@ -231,8 +231,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../.." title="Introduction" class="md-nav__link">
-      Introduction
+    <a href="../../../businessproblem/" title="Business problem" class="md-nav__link">
+      Business problem
     </a>
   </li>
 
@@ -243,8 +243,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../../businessproblem/" title="Business problem" class="md-nav__link">
-      Business problem
+    <a href="../../../solution/" title="Solution" class="md-nav__link">
+      Solution
     </a>
   </li>
 
@@ -330,6 +330,7 @@
                 <h1 id="adding-deployment-and-configuring-the-model">Adding Deployment and Configuring the Model</h1>
 <p>If the initial configuration of Watson Open Scale is done, there would be Add Deployment button that can be used to add a specific deployment for monitoring purpose.</p>
 <p>This will bring up a screen showing list of available Deployments. This list must show the 2 Deployments you have created in previous steps.</p>
+<p><img alt="" src="../images/cp4dWoSDeploymentList.png" /></p>
 <p>For Customer Churn use case add the Python Function Deployment (which internally access model deployed in MMD) by selecting the corresponding Deployment name shown in the available Deployment list.</p>
 <p>Next, for that Deployment you need to send few scoring requests. </p>
 <p>Navigate to the ‘Notebooks’ tab of your project and open ‘Payload Scoring For Watson Open Scale’ notebook using Jupyter with latest/highest version of Spark environment. You can select the environment by clicking the 3 vertical dots at the right of the name of the Notebook. </p>
@@ -346,13 +347,14 @@
 <p>Wherever, urls are needed use the Cloud Pak for Data URL (ip/host name and port) provided to you.</p>
 </li>
 </ol>
-<p>After this step Watson Open Scale would allow you to configure the Model.</p>
-<p>For Configuring Model you need to - </p>
+<p>After this step Watson Open Scale would allow you to configure the Model with the message that Logging Activated Successfully.</p>
+<p><img alt="" src="../images/cp4dWoSLoggingActivated.png" /></p>
+<p>For Configuring Model you need to first click on Model Deatils and select Manually Configure Monitors.</p>
+<p><img alt="" src="../images/cp4dWoSModelConfigure.png" /></p>
 <ol>
 <li>Provide Location of Training Data - </li>
 </ol>
 <p>In case of Cloud Pak For Data you have to specify any DB2 database for the same. For this lab specify the credential of internal DB2Wh of the Cloud Pak For Data (you should have it already as discussed in Getting Started step for IBM Cloud Pak for Data). </p>
-<p>In case of IBM Cloud Public you can use either DB2 database or Cloud Object Store. For this lab use DB2Wh in Cloud. (The credentials for the same are already discussed in Getting Started step for IBM Cloud Public).</p>
 <p>After you provide the location of Training Data, you need to select the schema and Table where the Training Data is stored. It should be same as the one you used in Model Development step.</p>
 <ol>
 <li>
@@ -371,14 +373,14 @@
 </ol>
 <p>a) Identify Age and Gender are the attributes those you want to Monitor for Fairness. These two are sometimes automatically identified by Open Scale as attributes to be monitored for Fairness based on the training data.</p>
 <p>b) Use, 'F' (as False) as favorable outcome and 'T' (as True) as unfavorable outcome.</p>
-<p>c) For monitoring Gender, use 'F' (as Female) as Reference group and 'M' (as Male) as Monitored group. Use 97% as threshold for Bias. And use 40 as the sample of records to be used.</p>
+<p>c) For monitoring Gender, use 'F' (as Female) as Reference group and 'M' (as Male) as Monitored group. Use 97% as threshold for Bias. And use 50 as the minimum sample of records to be used.</p>
 <p>d) For monitoring Age, use 40 to 60 as Reference group and 22 to 35 (as Male) as Monitored group. Use 97% as threshold for Bias. And use 40 as the sample of records to be used.</p>
 <ol>
-<li>Configuring Monitor for Accuracy -</li>
+<li>Configuring Monitor for Quality -</li>
 </ol>
 <p>a) Use 95% as accuracy Threshold</p>
 <p>b) Use 50 as minimum sample and 200 as maximum sample</p>
-<p>c) Upload the 'customer_churn_wos_quality_feedback.csv' provided as feedback file.</p>
+<p>c) Upload the 'customer_churn_quality_feedback.csv' provided as feedback file.</p>
                 
                   
                 
