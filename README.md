@@ -7,7 +7,7 @@ The goals of this implementation is to illustrate how to build an intelligent ap
 * Data Ingestion and Organization
 * Model Development and Deployment
 * Batch Scoring
-* Model MOnitoring
+* Model Monitoring
 * Cognitive service like Tone Analyzer and Chatbot
 * Integrate with Customer Data base and unstructured data to build a customer churn predictive scoring model
 * Deploy and monitor the model
