@@ -10,7 +10,7 @@
 * [1. Data Discovery](./Data Ingestion, Organization and Governance for Customer Churn/Data Discovery.md)
 * [2. Data Governance - Creating Business Glossary, Policies and Rules](./Data Ingestion, Organization and Governance for Customer Churn/Data Governance - Creating Business Glossary, Policies and Rules.md)
 * [3. Data Ingestion from Flat Files to a Project](./Data Ingestion, Organization and Governance for Customer Churn/Data Ingestion from Flat Files to a Project.md)
-* [4. Data Ingestion from Flat Files to a Project](./Data Ingestion, Organization and Governance for Customer Churn/Data Organization using PySpark in Notebook.md)
+* [4. Data Organization using PySpark in Notebook](./Data Ingestion, Organization and Governance for Customer Churn/Data Organization using PySpark in Notebook.md)
 
 ## Step 3: Customer Churn Model Development and Deployment
 
