@@ -10,6 +10,8 @@ The goals of this implementation is to illustrate how to build an intelligent ap
 * Integrate with Customer Data base and unstructured data to build a customer churn predictive scoring model
 * Deploy and monitor the model
 
+This project is one example of how to apply the data and AI reference architecture as presented [here](https://ibm-cloud-architecture.github.io/refarch-data-ai-analytics/).
+
 Modern applications are leveraging a set of capabilities to do a better assessment of customer characteristics and deliver the best actions or recommendations. The technologies involved, include artificial intelligence, data governance, ingestion, enrichment, storage, analysis, machine learning, unstructured data classifications, natural language understanding, tone analysis, and hybrid integration....
 
 Update 09/17/19
@@ -29,3 +31,7 @@ Update 09/17/19
 * Public services like the Watson services can be easily integrated within the solution: Watson Data Platform, Tone Analyzer, Watson Assistant.
 * API management is used to present a unique API for customer data, standardize for consumers like the webapp, even if the back end is Java based or z Connected based.
 * Product recommendations may be added to the solution to support business decision from a chatbot conversation taking into account the churn scoring risk. See this note to explain how to leverage IBM Operational Decision Management for that.
+
+## The high level view of the solution
+
+The following figure presents the capabilities used 
