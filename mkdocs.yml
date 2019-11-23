@@ -5,7 +5,8 @@ nav:
   - Solution: solution.md
   - Labs: 
     - IBM Cloud: lab/readme.md
-    - IBM Cloud Pak for Data: lab-IBMCloudPakForData/readme.md
+    - IBM Cloud Pak for Data 2.1: lab-IBMCloudPakForData/readme.md
+    - IBM Cloud Pak for Data 2.5: lab-IBMCloudPakForData25/readme.md
 theme: 
   name: material
   logo: images/cloud.png
